@@ -3,5 +3,9 @@
 
 int main(int argc, char *argv[])
 {
-  return (int)argv[1] + (int)argv[2];
+  int a = atoi(argv[1]);
+  int b = atoi(argv[2]);
+
+  printf("%i\n", a + b);
+  return a + b;
 }

@@ -7,5 +7,5 @@ int main(int argc, char *argv[])
   int b = atoi(argv[2]);
 
   printf("%i\n", a + b);
-  return a + b;
+  return (int)(a + b);
 }
